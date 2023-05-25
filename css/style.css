@@ -1,47 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 @font-face {
-    font-family: 'especifica';
-    src: ('../font/entropic.otf');
+    font-family: "especifica";
+    src: url('../font/entropic.ttf');
+}
+body {
+    background-color: rgba(210, 210, 210, .9);
 }
 .encabezado{
     background-image: url('../img/Cartois.jpg');
     background-size: 100% 100%;
-    background-repeat: space;
     text-align: center;
+
 }
 #perfil {
     width: 100px;
-    height: 146.37;
-
+    height: 100%;
 }
 h1 {
-    background-color: #C4C4C4;
-    color: #005677;
+    background-color: green;
+    color: yellow;
     line-height: 43px;
     font-size: 35px;
-    font-family: 'especifica';
+    font-family: especifica;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 2%;
+    margin-top: 0%;
 }
 .datos{
-    background-color: #C4C4C4;
-    color: #005677;
+    background-color: #008000;
+    color: orange;
     line-height: 28px;
     font-size: 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Crimson Text', serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 .bold {font-weight: bold;
 }
+
 .indentado {
     text-indent: 80px;
 }
 #pie {
-    color: #FFFFFF;
-    background-color: #005677;
-    font-family: 'Times New Roman';
+    color: orange;
+    background-color: green;
+    font-family: 'Times New Roman',serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+}
+.info {
+    font-family:monospace;
+    font-size: 18px;
+    color:purple;
+    font-weight: bold;
+    text-decoration: underline;
+    & h2 {
+        color: green;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
 }
